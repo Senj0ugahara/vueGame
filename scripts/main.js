@@ -179,7 +179,7 @@ let audio = new Audio('audio/soundtrack.mp3');
 let audioBtn = document.querySelector('.btn__sound');
 let audioIcon = document.querySelector('.btn__sound i');
 
-audio.muted = false;
+audio.muted = true;
 audio.autoplay = true;
 audio.volume = 0.1;
 
